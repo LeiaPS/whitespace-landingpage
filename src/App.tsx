@@ -1,10 +1,19 @@
 import { useState } from 'react'
+import { Customise, Header, NavMenu, Pricing, WorkManagement } from './ui/components'
+import { HeroSection } from './ui/components/heroSection'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <h1>Hello world</h1>
+    <div>
+      <Header />
+      <HeroSection />
+      <WorkManagement />
+      <Customise />
+      <Pricing />
+  
+    </div>
+    
   )
 }
 
