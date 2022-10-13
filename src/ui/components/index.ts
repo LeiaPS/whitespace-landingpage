@@ -6,3 +6,5 @@ export * from './workManagement'
 export * from './customise'
 export * from './pricing'
 export * from './price'
+export * from './ourSponsors'
+
